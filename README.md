@@ -17,5 +17,5 @@ If you use xampp you have to follow these steps to make it work correctly:
 2. Click in Apache's config
 3. Click in PHP (php.ini)
 4. In the PHP file search for "memory_limit="
-5. Change the value to atleast 3000M (or 4096M as I did at that moment)
+5. Change the value to at least 3000M (or 4096M as I did at that moment)
 6. Save the file and you can start Apache and MySQL
