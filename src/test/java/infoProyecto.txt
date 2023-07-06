@@ -1,0 +1,2 @@
+Integrante:;Dylan;Rodriguez;Anabalon
+Link;en;GitHub:;https://github.com/dylanrod159/ProyectoMusicTraining

@@ -1,0 +1,8 @@
+hola1;hola2;hola@a;true
+prueba;prueba2;prueba@a;false
+goma;pila;grafito@asd;true
+hola;x123d;xd@asd;true
+debaster123;holi;asjdlakd;true
+ala;perro;asd;true
+yo;asd;zxc;true
+test;perro;zxc;true
