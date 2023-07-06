@@ -150,10 +150,11 @@ public class Canciones {
                 input.read(wavData);
                 String insertQuery=query="insert into Song(name,author,genre,category,audio) values (?,?,?,?,?)";
                 try(PreparedStatement ps=link.prepareStatement(insertQuery)){
-                    ps.setString(1, "Peaceful journeys");
-                    ps.setString(2, "Meditation music");
-                    ps.setString(3, "Chill Out");
-                    ps.setString(4, "Yoga");
+                    //For this section you need to introduce these "texts" manually, here and example with Bandoleros song.
+                    ps.setString(1, "Bandoleros");//Song name
+                    ps.setString(2, "Don Omar");//Song Author
+                    ps.setString(3, "Reggaeton");//Song Genre
+                    ps.setString(4, "Dance");//Song category {Gym, Yoga, Run, etc...}
                     ps.setBytes(5, wavData);
                     ps.executeUpdate();
                     System.out.println("added!");
