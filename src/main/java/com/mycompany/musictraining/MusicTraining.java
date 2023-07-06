@@ -1,6 +1,4 @@
 
-//Integrante:Dylan Rodriguez Anabalon
-
 package com.mycompany.musictraining;
 
 import com.mycompany.Vista.Login;
