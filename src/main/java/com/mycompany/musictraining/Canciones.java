@@ -140,9 +140,9 @@ public class Canciones {
         String query;
         try (Connection link = connect.ConnectToDB()) {
             Statement s=link.createStatement();
-            //insert audio in blob data type
-            
-            String location= "C:\\Users\\dylan\\Downloads\\cancionesProyecto\\yoga\\Peaceful Journeys - meditationMusic.wav";
+            //Insert audio in blob data type
+            //Change the location variable for the url of the song's directory.
+            String location= "C:\\Users\\YourUser\\Folder\\Where\\Song\\Is\\Bandoleros.wav";//if you do not modify this url you will get an error
             File file=new File(location);
             byte[] wavData;
             try(FileInputStream input=new FileInputStream(file);){
