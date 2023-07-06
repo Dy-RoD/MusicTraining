@@ -1,5 +1,5 @@
 # MusicTraining
-MusicTraining Proyect Java created by Dylanrod159
+MusicTraining Proyect Java created by Dylanrod159.
 
 This is a "basic" music project based in Spotify, created 100% in Java. Feel free to use (do not forget the credits!).
 
